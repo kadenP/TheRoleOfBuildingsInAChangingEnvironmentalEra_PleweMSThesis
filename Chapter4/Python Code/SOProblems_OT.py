@@ -1,17 +1,16 @@
-############################################################
-# Kaden Plewe
-# 3/5/2019
-# Optimization Model for SEB Single Thermal Zone Building
-############################################################
+'''
+Kaden Plewe
+3/5/2019
+Optimization Model for SEB Single Thermal Zone Building
 
-# This will define an optimization problem based on the SEB Single Thermal Zone Building Model. It will be passed into
-# the optimization algorithm directly.
-# idf location: C:\Users\Owner\OneDrive\Research\Masters Thesis\Open Studio\Building Models
-# idd location: C:\EnergyPlusV8-5-0\Energy+.idd
-# eppy location: C:\Users\Owner\Anaconda3\Lib\site-packages\eppy
+This will define an optimization problem based on the small office EnergyPlus model. It will be passed into
+the optimization algorithm directly.
+idf location: C:\Users\Owner\OneDrive\Research\Masters Thesis\Open Studio\Building Models
+idd location: C:\EnergyPlusV8-5-0\Energy+.idd
+eppy location: C:\Users\Owner\Anaconda3\Lib\site-packages\eppy
+'''
 
-# import libraries
-#################################################
+'''import libraries'''
 from SmallOfficeModules import configuresmalloffice, smallofficeoutputs
 from eppy.modeleditor import IDF
 import eppy.json_functions as json_functions
