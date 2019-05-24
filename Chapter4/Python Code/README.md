@@ -1,3 +1,5 @@
+**BuildingOpt_OT.py**: Runs multiopjective optimization on the small office building for the problem declared in SOProblems_OT.py
+
 **EPDataModule.py**: Loads the energy plus simulation data that will be used for the uncertainty analysis.
 
 **GenerateEnergyPlusData.py**: This script will generate energy plus model data with different sample sizes to use in UA and SA.
@@ -21,6 +23,8 @@ regression fit for the same data sets for a range of sample sets. In order to co
 bhattacharyya distance is calculated for each model that was calculated with a different sample set size. The
 objective here is to find the sufficient sample size that allows the gaussian process model and the energy plus model
 distrubutions to match.
+
+**SOProblems_OT.py**: This will define an optimization problem based on the small office EnergyPlus model.
 
 **SensitivityCalculation**: This script will use the gaussian process regression models generated for the energy plus simulations in order to
 pwerform a sensitivity analysis on all of the input parameters by calculating DGSM indices.
