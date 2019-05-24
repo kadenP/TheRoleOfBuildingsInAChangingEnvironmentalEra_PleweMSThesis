@@ -1,4 +1,4 @@
-EPDataModule.py: Loads the energy plus simulation data that will be used for the uncertainty analysis.
+**EPDataModule.py**: Loads the energy plus simulation data that will be used for the uncertainty analysis.
 
 GenerateEnergyPlusData.py: This script will generate energy plus model data with different sample sizes to use in UA and SA.
 
