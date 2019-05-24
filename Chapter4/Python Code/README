@@ -1,8 +1,8 @@
-**EPDataModule.py**: Loads the energy plus simulation data that will be used for the uncertainty analysis.
+EPDataModule.py: Loads the energy plus simulation data that will be used for the uncertainty analysis.
 
-**GenerateEnergyPlusData.py**: This script will generate energy plus model data with different sample sizes to use in UA and SA.
+GenerateEnergyPlusData.py: This script will generate energy plus model data with different sample sizes to use in UA and SA.
 
-**GenerateMetaModel.py**: Script used to generate meta model for energy plus building simulations for each of the desired outputs.
+GenerateMetaModel.py: Script used to generate meta model for energy plus building simulations for each of the desired outputs.
 This script will read a json input file for a set of energy plus building model inputs and parameters and run a
 simulation for each set of input parameters. After obtaining the energy usage and thermal comfort outputs for each
 parameter set, it will fit a regression model.
