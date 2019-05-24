@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Kaden Plewe
 % U0896242
-% MPC Class Project: MPC in a small office building thermal model
+% MPC in a small office building thermal model
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 clear, clc, close all
@@ -62,7 +62,7 @@ plot(timeSeries(:, 1), Tiso(4, :), colors(4))
 plot(timeSeries(:, 1), Tiso(5, :), colors(5))
 plot(timeSeries(:, 1), timeSeries(:, 2), '-.k')
 xlabel('Time (h)')
-ylabel('Temperature (캜)')
+ylabel('Temperature (째C)')
 legend('Zone 1', 'Zone 2', 'Zone 3', 'Zone 4', 'Zone 5', 'Outdoor')
 
 %% Run a simple on/off simulation
@@ -111,7 +111,7 @@ plot(1:size(T, 2), T)
 hold on
 plot(1:size(T, 2), To(1:size(T, 2)), 'k--')
 xlabel('Time (min)')
-ylabel('Temperature (캜)')
+ylabel('Temperature (째C)')
 legend('Zone 1', 'Zone 2', 'Zone 3', 'Zone 4', 'Zone 5', 'Attic', 'Outdoor')
 ylim([-20, 30])
 
@@ -373,7 +373,7 @@ plot(1:size(T, 2), T)
 hold on
 plot(1:size(T, 2), To(1:size(T, 2)), 'k--')
 xlabel('Time (min)')
-ylabel('Temperature (캜)')
+ylabel('Temperature (째C)')
 legend('Zone 1', 'Zone 2', 'Zone 3', 'Zone 4', 'Zone 5', 'Attic', 'Outdoor')
 ylim([-20, 30])
 
@@ -589,7 +589,7 @@ plot(1:size(T, 2), T)
 hold on
 plot(1:size(T, 2), To(1:size(T, 2)), 'k--')
 xlabel('Time (min)')
-ylabel('Temperature (캜)')
+ylabel('Temperature (째C)')
 legend('Zone 1', 'Zone 2', 'Zone 3', 'Zone 4', 'Zone 5', 'Attic', 'Outdoor')
 ylim([-20, 30])
 
