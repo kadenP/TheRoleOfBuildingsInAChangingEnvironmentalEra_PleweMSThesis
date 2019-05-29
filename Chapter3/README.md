@@ -1,0 +1,1 @@
+Materials for Chapter 3 include the MATLAB script that was used to model the small office building and to simulate the various control schemes that were presented in the tesis. Along with the MATLAB script, the data used for describing the building model are included.
